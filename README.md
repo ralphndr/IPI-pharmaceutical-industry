@@ -1,4 +1,4 @@
-# IPI Pharmaceutical Industry — Linear Time Series Analysis
+# IPI Pharmaceutical Industry: Linear Time Series Analysis
 
 > **Linear Time Series Assignment** &nbsp;|&nbsp; *Mathieu Tassel & Ralph Nader*
 
@@ -204,22 +204,3 @@ The entire pipeline — data retrieval, stationarisation, model selection, forec
 
 source("src/mtassel_rnader.R")
 ```
-
-The script will:
-1. Fetch the IPI Pharma series live from the INSEE BDM API
-2. Run unit root tests and print descriptive statistics
-3. Identify, estimate, and validate the MA(1) model
-4. Produce and export all figures to `img/`
-5. Compute forecasts and joint confidence regions
-6. Run Granger causality tests for both candidate series
-
----
-
-## Authors
-
-| | |
-|---|---|
-| **Mathieu Tassel** | M2 Economics |
-| **Ralph Nader** | M2 Economics |
-
-*Linear Time Series — Graduate Econometrics Assignment*
